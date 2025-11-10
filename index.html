@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leadership & Management Mastery: 14 Core Verbs</title>
+    <!-- Load Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind to use the Inter font family -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Safelist for dynamic Tailwind colors used in JS generation */
+        /* This ensures JIT compiler includes all necessary color classes */
+        .text-teal-500, .bg-teal-50, .text-teal-800, .border-teal-500, .bg-teal-500, .bg-teal-500\/10 {}
+        .text-indigo-500, .bg-indigo-50, .text-indigo-800, .border-indigo-500, .bg-indigo-500, .bg-indigo-500\/10 {}
+        .text-pink-500, .bg-pink-50, .text-pink-800, .border-pink-500, .bg-pink-500, .bg-pink-500\/10 {}
+        .text-cyan-500, .bg-cyan-50, .text-cyan-800, .border-cyan-500, .bg-cyan-500, .bg-cyan-500\/10 {}
+        .text-purple-500, .bg-purple-50, .text-purple-800, .border-purple-500, .bg-purple-500, .bg-purple-500\/10 {}
+        .text-red-500, .bg-red-50, .text-red-800, .border-red-500, .bg-red-500, .bg-red-500\/10 {}
+        .text-green-500, .bg-green-50, .text-green-800, .border-green-500, .bg-green-500, .bg-green-500\/10 {}
+        .text-orange-500, .bg-orange-50, .text-orange-800, .border-orange-500, .bg-orange-500, .bg-orange-500\/10 {}
+        .text-gray-500, .bg-gray-50, .text-gray-800, .border-gray-500, .bg-gray-500, .bg-gray-500\/10 {}
+        .text-lime-500, .bg-lime-50, .text-lime-800, .border-lime-500, .bg-lime-500, .bg-lime-500\/10 {}
+        .text-fuchsia-500, .bg-fuchsia-50, .text-fuchsia-800, .border-fuchsia-500, .bg-fuchsia-500, .bg-fuchsia-500\/10 {}
+        .text-yellow-500, .bg-yellow-50, .text-yellow-800, .border-yellow-500, .bg-yellow-500, .bg-yellow-500\/10 {}
+        .text-amber-500, .bg-amber-50, .text-amber-800, .border-amber-500, .bg-amber-500, .bg-amber-500\/10 {}
+        .text-blue-500, .bg-blue-50, .text-blue-800, .border-blue-500, .bg-blue-500, .bg-blue-500\/10 {}
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50 antialiased">
+
+    <!-- Header -->
+    <header class="py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-indigo-800 via-purple-700 to-pink-600 text-white shadow-xl rounded-b-3xl">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">
+                Leadership & Management Mastery
+            </h1>
+            <p class="mt-3 text-xl sm:text-2xl font-light text-purple-200">
+                Beyond Titles: The 14 Core Verbs That Define Your Impact.
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <!-- Core Distinction Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 pb-2 border-purple-500">
+                The Fundamental Distinction
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Leadership Card -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 border-t-4 border-indigo-500">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                        <h3 class="text-2xl font-semibold text-indigo-700">LEADERSHIP</h3>
+                    </div>
+                    <p class="text-gray-600">
+                        **Focus:** Vision, direction, and human connection. Leadership is about **change, motivation, and inspiration**. You **lead** people by communicating the *Why*.
+                    </p>
+                    <p class="mt-3 text-sm text-gray-500 italic">
+                        (Em Português: Liderar é sobre inspiração, propósito e guiar pessoas para o futuro.)
+                    </p>
+                </div>
+
+                <!-- Management Card -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 border-t-4 border-pink-500">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-pink-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                        </svg>
+                        <h3 class="text-2xl font-semibold text-pink-700">MANAGEMENT</h3>
+                    </div>
+                    <p class="text-gray-600">
+                        **Focus:** Execution, systems, and control. Management is about **stability, planning, and ensuring processes** are followed. You **manage** tasks to achieve the *How*.
+                    </p>
+                    <p class="mt-3 text-sm text-gray-500 italic">
+                        (Em Português: Gerenciar é sobre organização, controle de prazo, orçamento e rotina.)
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Action Verbs Grid Container (Dynamically rendered) -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 pb-2 border-purple-500">
+                The 14 Leadership Action Verbs
+            </h2>
+            <div id="verb-cards-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Verb Cards will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Scenario Walkthroughs Container (Dynamically rendered) -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-2 pb-2 border-purple-500">
+                🇧🇷 Cenários de Vida Real & Preparação para Entrevistas
+            </h2>
+            <p class="text-lg text-gray-700 mb-8">
+                Aprenda a **usar esses verbos** para descrever suas experiências profissionais de forma impactante, com equivalentes autênticos do ambiente de trabalho brasileiro.
+            </p>
+            <div id="scenario-walkthroughs">
+                <!-- Scenario Sections will be inserted here by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-10 rounded-t-3xl">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <p class="text-sm">
+                Master your professional narrative. Use these verbs to tell your story in English.
+            </p>
+            <p class="text-xs mt-1 text-gray-400">
+                Desenvolvido por Daby's Leadership Program.
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Data and Rendering -->
+    <script>
+        // --- 1. DATA DEFINITIONS (Reused from React) ---
+        const VERBS = [
+            { verb: "SPEARHEAD", core: "Start & Drive the Initiative", pt: "Encabeçar, Tocar o Projeto" },
+            { verb: "LEAD", core: "Inspire & Give Vision", pt: "Liderar, Estar à frente do time" },
+            { verb: "MANAGE", core: "Organize Resources & Process", pt: "Gerenciar, Administrar" },
+            { verb: "STEER", core: "Guide Through Challenges", pt: "Conduzir, Segurar as pontas" },
+            { verb: "GUIDE", core: "Advise & Mentor Development", pt: "Orientar, Dar suporte" },
+            { verb: "OVERSEE", core: "Monitor Multiple Areas (Macro)", pt: "Supervisionar (Visão geral)" },
+            { verb: "SUPERVISE", core: "Direct Daily Tasks (Micro)", pt: "Coordenar, Acompanhar de perto" },
+            { verb: "BE IN CHARGE OF", core: "Hold Formal Responsibility", pt: "Ser responsável por, Tomar conta de" },
+            { verb: "COMMAND", core: "Exercise Authority & Respect", pt: "Comandar, Impor respeito" },
+            { verb: "FOSTER", core: "Encourage Growth & Culture", pt: "Incentivar, Promover" },
+            { verb: "CULTIVATE", core: "Intentionally Develop Relationships", pt: "Cultivar, Construir (relações)" },
+            { verb: "EMPOWER", core: "Give Authority & Ownership", pt: "Dar autonomia, Capacitar" },
+            { verb: "NEGOTIATE", core: "Reach Formal Agreement or Resolution", pt: "Negociar, Fechar Acordo" },
+            { verb: "ANALYZE", core: "Examine Data to Inform Strategy", pt: "Analisar, Mapear Oportunidade" },
+        ];
+
+        const SCENARIO_DATA = {
+            SPEARHEAD: {
+                color: "teal",
+                title: "1. SPEARHEAD: Starting & Driving Initiatives",
+                scenarios: [
+                    {
+                        english: "I spearheaded the implementation of a new CRM system to improve customer follow-up.",
+                        portuguese: "Eu toquei o projeto de implementação de um novo CRM para melhorar o acompanhamento de clientes.",
+                        expressions: ["Toquei o projeto.", "Fui o responsável por começar isso.", "Puxei essa iniciativa.", "Encabecei o projeto."],
+                        tip: "Say: “I spearheaded a new process that…” → In Brazil: “Eu toquei um projeto que fez diferença na operação.” (Used when you started something from scratch and pushed it until it worked.)"
+                    },
+                    {
+                        english: "When the company needed a new onboarding program, I spearheaded the design and rollout.",
+                        portuguese: "Quando a empresa precisou de um novo programa de integração, eu puxei essa frente e implementei.",
+                        expressions: ["Peguei essa frente.", "Liderei o começo disso."],
+                        tip: "Highlight initiative and ownership from the very start."
+                    },
+                    {
+                        english: "I spearheaded a cost-reduction task force that saved the company 15% in six months.",
+                        portuguese: "Eu liderei uma força-tarefa de redução de custos que economizou 15% em seis meses.",
+                        expressions: ["Fui o motor do projeto.", "Fui quem colocou o projeto de pé."],
+                        tip: "Focus on initiative and quantifiable results."
+                    },
+                    {
+                        english: "After noticing low engagement, I spearheaded an internal communication campaign.",
+                        portuguese: "Eu toquei uma campanha de comunicação interna para aumentar o engajamento.",
+                        expressions: ["Tomei a iniciativa.", "Coloquei isso pra andar."],
+                        tip: "Showcases identifying a problem and driving the solution."
+                    },
+                ],
+            },
+            LEAD: {
+                color: "indigo",
+                title: "2. LEAD: Inspiring & Giving Direction",
+                scenarios: [
+                    {
+                        english: "I led a team of analysts during a high-pressure audit season.",
+                        portuguese: "Eu liderei uma equipe de analistas durante o período de auditoria, sob muita pressão.",
+                        expressions: ["Liderei a equipe.", "Estive à frente do time.", "Assumi a liderança."],
+                        tip: "Say: “I led a small team through a tough phase.” → In Brazil: “Eu estive à frente de um time em um momento difícil.” (Focuses on motivation and human connection.)"
+                    },
+                    {
+                        english: "I led the marketing team during the company’s rebranding.",
+                        portuguese: "Eu estive à frente do time de marketing durante o rebranding da empresa.",
+                        expressions: ["Toquei o time de marketing.", "Coordenei o time."],
+                        tip: "Use to show inspiration and guidance during major change."
+                    },
+                    {
+                        english: "I led cross-functional meetings to align goals across departments.",
+                        portuguese: "I led cross-functional meetings to align goals across departments.",
+                        expressions: ["Fiz a ponte entre as áreas.", "Conduzi as reuniões."],
+                        tip: "Highlights coordination and alignment skills."
+                    },
+                    {
+                        english: "I led by example — I was the first to arrive and the last to leave during critical deadlines.",
+                        portuguese: "Eu liderei pelo exemplo — Eu fui o primeiro a chegar e o último a sair durante os prazos apertados.",
+                        expressions: ["Dei o exemplo.", "Liderei na prática."],
+                        tip: "Use to demonstrate commitment and influence."
+                    },
+                ],
+            },
+            MANAGE: {
+                color: "pink",
+                title: "3. MANAGE: Organizing Resources & Process",
+                scenarios: [
+                    {
+                        english: "I managed the marketing budget and optimized our media spend.",
+                        portuguese: "Eu gerenciei o orçamento de marketing e otimizei o investimento em mídia.",
+                        expressions: ["Gerenciei o orçamento.", "Administrei os recursos.", "Controlei os custos."],
+                        tip: "Say: “I managed X people and Y budget to deliver results.” → In Brazil: “Eu gerenciei uma equipe e um orçamento de X reais pra entregar resultados.” (Focus on metrics, budget, and efficiency.)"
+                    },
+                    {
+                        english: "I managed the relationship with suppliers to improve delivery times.",
+                        portuguese: "Eu gerenciei a relação com fornecedores para melhorar o prazo de entrega.",
+                        expressions: ["Cuidei dessa parte.", "Fiz a gestão de fornecedores."],
+                        tip: "Focuses on structure and process control."
+                    },
+                    {
+                        english: "I managed deadlines across multiple projects and teams.",
+                        portuguese: "Eu gerenciei prazos em vários projetos e equipes.",
+                        expressions: ["Fiz a gestão dos prazos.", "Organizei as entregas."],
+                        tip: "Highlights organizational and logistical skills."
+                    },
+                    {
+                        english: "I managed a team of 10 people, balancing workload and performance.",
+                        portuguese: "Eu gerenciei uma equipe de 10 pessoas, equilibrando demandas e performance.",
+                        expressions: ["Coordenei o time.", "Toquei o dia a dia da equipe."],
+                        tip: "Stresses practical, operational control."
+                    },
+                ],
+            },
+            STEER: {
+                color: "cyan",
+                title: "4. STEER: Guiding Through Challenges",
+                scenarios: [
+                    {
+                        english: "I steered the company through a merger process.",
+                        portuguese: "Eu conduzi a empresa durante o processo de fusão.",
+                        expressions: ["Conduzi o processo.", "Segurei as pontas.", "Guiei o time na mudança."],
+                        tip: "Say: “I steered the team through uncertainty.” → In Brazil: “Eu conduzi o time em um momento instável.” (Use to show resilience and guidance during major organizational change.)"
+                    },
+                    {
+                        english: "I steered the project team through major technical difficulties.",
+                        portuguese: "Eu conduzi o time durante grandes dificuldades técnicas.",
+                        expressions: ["Levei o time até o fim.", "Fui o ponto de apoio."],
+                        tip: "Emphasizes direction and stability during uncertainty."
+                    },
+                    {
+                        english: "I steered the department through budget cuts without layoffs.",
+                        portuguese: "Eu conduzi o departamento durante cortes de orçamento sem demissões.",
+                        expressions: ["Administrei a crise.", "Soube conduzir o time."],
+                        tip: "Showcases crisis management skills."
+                    },
+                    {
+                        english: "I steered our communication strategy during a PR crisis.",
+                        portuguese: "I steered our communication strategy during a PR crisis.",
+                        expressions: ["Fui quem conduziu a crise.", "Fiz a gestão da crise."],
+                        tip: "Ideal for roles involving navigating high-stakes situations."
+                    },
+                ],
+            },
+            GUIDE: {
+                color: "purple",
+                title: "5. GUIDE: Advising & Mentoring",
+                scenarios: [
+                    {
+                        english: "I guided two junior analysts to grow into leadership roles.",
+                        portuguese: "Eu orientei dois analistas juniores até eles assumirem cargos de liderança.",
+                        expressions: ["Orientei os analistas.", "Dei suporte no desenvolvimento.", "Fiz mentoria com eles."],
+                        tip: "Say: “I guided new employees to adapt quickly.” → In Brazil: “Eu orientei os novos colaboradores pra se adaptarem rápido à rotina.”"
+                    },
+                    {
+                        english: "I guided the new manager through our internal policies and reporting system.",
+                        portuguese: "Eu ajudei o novo gestor a entender nossas políticas e relatórios.",
+                        expressions: ["Mostrei o caminho.", "Acompanhei o onboarding.", "Ensinei como funciona aqui dentro."],
+                        tip: "Highlight knowledge transfer and support."
+                    },
+                    {
+                        english: "I guided the marketing team to align campaigns with the company’s strategy.",
+                        portuguese: "Eu orientei o time de marketing a alinhar as campanhas com a estratégia da empresa.",
+                        expressions: ["Direcionei o time.", "Ajustei o foco da equipe."],
+                        tip: "Showcases the ability to align focus strategically."
+                    },
+                    {
+                        english: "I guided the team during the first phase of our ERP implementation.",
+                        portuguese: "Eu orientei o time durante a primeira fase da implementação do ERP.",
+                        expressions: ["Acompanhei de perto.", "Fui ponto de referência."],
+                        tip: "Emphasizes expertise and directional support during complex projects."
+                    },
+                ],
+            },
+            OVERSEE: {
+                color: "red",
+                title: "6. OVERSEE: Monitoring Macro Areas",
+                scenarios: [
+                    {
+                        english: "I oversee three regional teams to ensure quality and consistency.",
+                        portuguese: "Eu supervisiono três equipes regionais para garantir qualidade e consistência.",
+                        expressions: ["Supervisiono as áreas.", "Faço a gestão macro.", "Acompanho o trabalho das filiais."],
+                        tip: "Say: “I oversee multiple teams to keep the big picture aligned.” → In Brazil: “Eu supervisiono várias equipes pra garantir a visão estratégica.”"
+                    },
+                    {
+                        english: "I oversee the entire logistics operation in South America.",
+                        portuguese: "Eu supervisiono toda a operação logística da América do Sul.",
+                        expressions: ["Cuido da operação da região.", "Tenho visão geral da área."],
+                        tip: "Use to describe strategic monitoring across different business units."
+                    },
+                    {
+                        english: "I oversee performance indicators to make sure targets are met.",
+                        portuguese: "Eu acompanho os indicadores pra garantir o cumprimento das metas.",
+                        expressions: ["Monituro os KPIs.", "Fico de olho nas metas."],
+                        tip: "Highlights strategic oversight of performance metrics."
+                    },
+                    {
+                        english: "I oversee cross-department communication to keep alignment.",
+                        portuguese: "Eu supervisiono a comunicação entre as áreas pra manter o alinhamento.",
+                        expressions: ["Faço a ponte entre as áreas.", "Garanto que as áreas conversem."],
+                        tip: "Showcases interdepartmental coordination at a high level."
+                    },
+                ],
+            },
+            SUPERVISE: {
+                color: "green",
+                title: "7. SUPERVISE: Directing Daily Tasks",
+                scenarios: [
+                    {
+                        english: "I supervise a team of customer service agents to maintain quality standards.",
+                        portuguese: "Eu supervisiono a equipe de atendimento pra manter o padrão de qualidade.",
+                        expressions: ["Supervisiono o time.", "Acompanho o dia a dia.", "Fico em cima da operação."],
+                        tip: "Say: “I supervised daily operations and solved on-the-spot problems.” → In Brazil: “Eu supervisionava a rotina e resolvia os problemas na hora.”"
+                    },
+                    {
+                        english: "I supervise the night shift to make sure production meets targets.",
+                        portuguese: "Eu supervisiono o turno da noite pra garantir as metas de produção.",
+                        expressions: ["Coordeno o turno.", "Cuido da equipe à noite."],
+                        tip: "Ideal for roles involving direct team and operational control."
+                    },
+                    {
+                        english: "I supervise data entry tasks to ensure accuracy in reports.",
+                        portuguese: "Eu acompanho o preenchimento de dados pra garantir precisão nos relatórios.",
+                        expressions: ["Confiro o trabalho.", "Reviso o que é entregue."],
+                        tip: "Focuses on quality assurance and accuracy."
+                    },
+                    {
+                        english: "I supervise the daily workflow and report issues to management.",
+                        portuguese: "Eu supervisiono o fluxo de trabalho e reporto problemas pra gerência.",
+                        expressions: ["Organizo o fluxo.", "Sou responsável pelo acompanhamento diário."],
+                        tip: "Highlights coordination and immediate issue resolution."
+                    },
+                ],
+            },
+            BE_IN_CHARGE_OF: {
+                color: "orange",
+                title: "8. BE IN CHARGE OF: Formal Responsibility",
+                scenarios: [
+                    {
+                        english: "I’m in charge of training and developing new sales representatives.",
+                        portuguese: "Sou responsável pelo treinamento e desenvolvimento dos novos vendedores.",
+                        expressions: ["Sou responsável por...", "Cuido da parte de...", "Tomo conta de..."],
+                        tip: "Say: “I was in charge of all client relations.” → In Brazil: “Eu era responsável pelo relacionamento com os clientes.”"
+                    },
+                    {
+                        english: "I was in charge of the monthly performance reviews.",
+                        portuguese: "Fiquei responsável pelas avaliações mensais de desempenho.",
+                        expressions: ["Assumi essa responsabilidade.", "Era eu quem cuidava disso."],
+                        tip: "Emphasize ownership and accountability for a specific business function."
+                    },
+                    {
+                        english: "I’m in charge of approving all purchase requests in the department.",
+                        portuguese: "Sou responsável por aprovar todas as requisições de compra do departamento.",
+                        expressions: ["Fico encarregado das aprovações.", "Passa tudo por mim."],
+                        tip: "Shows control and authorization power."
+                    },
+                    {
+                        english: "I’m in charge of communication between our office and headquarters.",
+                        portuguese: "Sou responsável pela comunicação entre nosso escritório e a matriz.",
+                        expressions: ["Faço a ponte com a matriz.", "Centralizo essa comunicação."],
+                        tip: "Highlights a central point of accountability."
+                    },
+                ],
+            },
+            COMMAND: {
+                color: "gray",
+                title: "9. COMMAND: Exercising Authority & Respect",
+                scenarios: [
+                    {
+                        english: "She commands respect because she’s always fair and consistent.",
+                        portuguese: "Ela impõe respeito porque é justa e coerente.",
+                        expressions: ["Impõe respeito.", "Tem presença de liderança.", "Sabe se impor."],
+                        tip: "Say: “I commanded the situation calmly and effectively.” → In Brazil: “Assumi o comando da situação com calma e eficiência.”"
+                    },
+                    {
+                        english: "I commanded a cross-functional team of 20 people during the expansion.",
+                        portuguese: "Eu comandei uma equipe multidisciplinar de 20 pessoas durante a expansão.",
+                        expressions: ["Comandei a equipe.", "Estive no comando."],
+                        tip: "Describes authoritative and respected leadership."
+                    },
+                    {
+                        english: "He commands the meeting with confidence and clarity.",
+                        portuguese: "Ele conduz a reunião com segurança e clareza.",
+                        expressions: ["Conduz a reunião com firmeza.", "Sabe dominar a sala."],
+                        tip: "Focuses on presence and control in a high-stakes setting."
+                    },
+                    {
+                        english: "I commanded the crisis team during a major system outage.",
+                        portuguese: "Eu comandei o time de crise durante uma grande falha no sistema.",
+                        expressions: ["Assumi o comando.", "Fiquei à frente da crise."],
+                        tip: "Highlights decisive action in emergencies."
+                    },
+                ],
+            },
+            FOSTER: {
+                color: "lime",
+                title: "10. FOSTER: Encouraging Growth & Culture",
+                scenarios: [
+                    {
+                        english: "I foster a culture of collaboration and trust.",
+                        portuguese: "Eu incentivo uma cultura de colaboração e confiança.",
+                        expressions: ["Incentivo o trabalho em equipe.", "Promovo um ambiente colaborativo.", "Estimulo a confiança no time."],
+                        tip: "Say: “I foster collaboration and continuous learning.” → In Brazil: “Eu incentivo a colaboração e o aprendizado constante.”"
+                    },
+                    {
+                        english: "I foster innovation by rewarding creative ideas.",
+                        portuguese: "Eu incentivo a inovação, premiando ideias criativas.",
+                        expressions: ["Estimulo ideias novas.", "Crio espaço pra inovação."],
+                        tip: "Highlights the ability to create conditions for growth."
+                    },
+                    {
+                        english: "I foster open communication between departments.",
+                        portuguese: "Eu promovo uma comunicação aberta entre as áreas.",
+                        expressions: ["Facilito o diálogo.", "Abro espaço pra conversa."],
+                        tip: "Focuses on improving interdepartmental dynamics."
+                    },
+                    {
+                        english: "I foster professional development by offering mentoring programs.",
+                        portuguese: "Eu promovo o desenvolvimento profissional oferecendo programas de mentoria.",
+                        expressions: ["Incentivo o crescimento do time.", "Dou oportunidade de aprendizado."],
+                        tip: "Very common in HR, leadership, and culture conversations."
+                    },
+                ],
+            },
+            CULTIVATE: {
+                color: "fuchsia",
+                title: "11. CULTIVATE: Developing Relationships",
+                scenarios: [
+                    {
+                        english: "I cultivate relationships with key clients to strengthen trust.",
+                        portuguese: "Eu cultivo relacionamentos com clientes-chave pra fortalecer a confiança.",
+                        expressions: ["Construo relacionamento.", "Mantenho contato próximo.", "Fortaleço o vínculo."],
+                        tip: "Say: “I cultivate long-term partnerships and professional growth.” → In Brazil: “Eu construo relações de longo prazo e incentivo o crescimento das pessoas.”"
+                    },
+                    {
+                        english: "I cultivate a mindset of accountability in my team.",
+                        portuguese: "Eu desenvolvo uma mentalidade de responsabilidade na equipe.",
+                        expressions: ["Trabalho a mentalidade do time.", "Crio essa cultura de dono."],
+                        tip: "Highlights intentional effort in developing attitudes."
+                    },
+                    {
+                        english: "I cultivate an environment where feedback is natural and welcome.",
+                        portuguese: "Eu cultivo um ambiente onde o feedback é natural e bem-vindo.",
+                        expressions: ["Crio um clima de confiança.", "Promovo abertura pra feedback."],
+                        tip: "Focuses on building a receptive internal culture."
+                    },
+                    {
+                        english: "I cultivate future leaders by delegating important responsibilities.",
+                        portuguese: "Eu desenvolvo futuros líderes delegando responsabilidades importantes.",
+                        expressions: ["Formo novos líderes.", "Desenvolvo talentos."],
+                        tip: "Emphasizes deliberate, strategic talent development."
+                    },
+                ],
+            },
+            EMPOWER: {
+                color: "yellow",
+                title: "12. EMPOWER: Giving Authority & Ownership",
+                scenarios: [
+                    {
+                        english: "I empowered the junior designer by giving her full ownership of the new campaign concept.",
+                        portuguese: "Eu dei autonomia total à designer júnior no conceito da nova campanha.",
+                        expressions: ["Dei autonomia para o time.", "Confiei a responsabilidade a ela.", "Dei a liberdade de criar."],
+                        tip: "Use to show the delegation of strategic decision-making."
+                    },
+                    {
+                        english: "I empowered my direct reports to make pricing decisions up to a certain limit.",
+                        portuguese: "Eu autorizei meus liderados diretos a tomar decisões de preço até um limite estabelecido.",
+                        expressions: ["Dei poder de decisão.", "Autorizei a tomar a frente.", "Descentralizei a decisão."],
+                        tip: "It’s about trust and giving the resources needed to succeed."
+                    },
+                    {
+                        english: "I empower my remote team by focusing on results, not logging hours.",
+                        portuguese: "Eu dou autonomia à minha equipe remota focando em resultados, e não em horas trabalhadas.",
+                        expressions: ["Confio no resultado.", "Dou liberdade para gerenciar o tempo."],
+                        tip: "Highlights the creation of a results-oriented, flexible culture."
+                    },
+                    {
+                        english: "We empowered our sales team with a new mobile app for real-time reporting, cutting down administrative work.",
+                        portuguese: "Nós capacitamos a equipe de vendas com um novo app para relatórios em tempo real, diminuindo o trabalho administrativo.",
+                        expressions: ["Capacitamos o time.", "Demos as ferramentas necessárias."],
+                        tip: "Say: “I empowered my team members to become decision-makers.” → In Brazil: “Eu dei autonomia pro meu time virar ponto focal nas decisões.”"
+                    },
+                ],
+            },
+            NEGOTIATE: {
+                color: "amber",
+                title: "13. NEGOTIATE: Reaching Formal Agreements",
+                scenarios: [
+                    {
+                        english: "I successfully negotiated the terms of a new multi-million dollar contract with our biggest client.",
+                        portuguese: "Eu negociei com sucesso os termos de um novo contrato multimilionário com nosso maior cliente.",
+                        expressions: ["Fechei a negociação.", "Fui o ponto focal da negociação.", "Concluí o acordo."],
+                        tip: "It’s about high-stakes dialogue and reaching a formal outcome."
+                    },
+                    {
+                        english: "I negotiated a resolution between the Operations and Finance teams regarding resource allocation.",
+                        portuguese: "Eu negociei uma solução entre os times de Operações e Financeiro sobre a alocação de recursos.",
+                        expressions: ["Fiz a mediação do conflito.", "Chegamos a um acordo."],
+                        tip: "Ideal for showcasing conflict resolution and interdepartmental alignment."
+                    },
+                    {
+                        english: "I negotiated an increased budget for our department’s digital transformation initiative with the board.",
+                        portuguese: "Eu negociei um aumento no orçamento para a iniciativa de transformação digital do nosso departamento com a diretoria.",
+                        expressions: ["Consegui convencer a liderança.", "Batalhei por mais recursos."],
+                        tip: "Highlights advocacy and strategic persuasion skills."
+                    },
+                    {
+                        english: "I negotiated with the labor union to implement new flexible working hours that benefited both sides.",
+                        portuguese: "Eu negociei com o sindicato para implementar um novo horário de trabalho flexível que beneficiou os dois lados.",
+                        expressions: ["Conduzi a negociação com o sindicato.", "Fechei o acordo."],
+                        tip: "Say: “I negotiated high-stakes agreements to secure our company’s long-term interests.” → In Brazil: “Eu conduzi negociações de alto risco pra garantir o futuro da empresa.”"
+                    },
+                ],
+            },
+            ANALYZE: {
+                color: "blue",
+                title: "14. ANALYZE: Data-Driven Strategy",
+                scenarios: [
+                    {
+                        english: "I analyzed market data to identify a $5 million opportunity in a previously untapped product segment.",
+                        portuguese: "Eu analisei dados de mercado e identifiquei uma oportunidade de R$25 milhões em um novo segmento de produto.",
+                        expressions: ["Fiz uma análise aprofundada.", "Mapeei a oportunidade.", "Levantei os dados."],
+                        tip: "It’s about data-driven insight that precedes strategy."
+                    },
+                    {
+                        english: "I analyzed the sales funnel data and pinpointed the exact step where we were losing customer conversions.",
+                        portuguese: "Eu analisei os dados do funil de vendas e identifiquei o ponto exato onde estávamos perdendo conversões.",
+                        expressions: ["Fiz o diagnóstico.", "Identifiquei a falha."],
+                        tip: "Showcases diagnostic skills and process optimization."
+                    },
+                    {
+                        english: "I analyzed the operational risks of moving our production offshore and presented a mitigation plan.",
+                        portuguese: "Eu avaliei os riscos operacionais de transferir nossa produção para o exterior e apresentei um plano de mitigação.",
+                        expressions: ["Fiz o estudo de risco.", "Avaliei a viabilidade."],
+                        tip: "Highlights proactive risk assessment and planning."
+                    },
+                    {
+                        english: "I analyzed the root causes of the previous project failure to ensure we didn't repeat the mistakes in the new cycle.",
+                        portuguese: "Eu analisei a causa raiz da falha do projeto anterior para garantir que não repetiríamos os erros no novo ciclo.",
+                        expressions: ["Fiz a lição aprendida (post-mortem).", "Aprofundei na causa do problema."],
+                        tip: "Say: “I analyzed performance metrics to diagnose system flaws and inform the executive strategy.” → In Brazil: “Eu fiz a análise das métricas pra diagnosticar a falha do sistema e ajudar a montar a estratégia da diretoria.”"
+                    },
+                ],
+            },
+        };
+
+        // --- 2. RENDERING FUNCTIONS ---
+
+        // Helper to get the correct gradient class for the verb cards
+        function getGradientClass(index) {
+            if (index % 3 === 0) {
+                return 'bg-gradient-to-r from-teal-500 to-cyan-500';
+            } else if (index % 3 === 1) {
+                return 'bg-gradient-to-r from-purple-500 to-indigo-500';
+            } else {
+                return 'bg-gradient-to-r from-pink-500 to-red-500';
+            }
+        }
+
+        // Renders the small verb cards
+        function renderVerbCards() {
+            const grid = document.getElementById('verb-cards-grid');
+            let html = '';
+
+            VERBS.forEach((item, index) => {
+                const gradientClass = getGradientClass(index);
+                html += `
+                    <div class="p-5 rounded-xl shadow-lg text-white transform hover:scale-[1.03] transition duration-300 ${gradientClass}">
+                        <h4 class="text-2xl font-extrabold mb-1">
+                            ${item.verb}
+                        </h4>
+                        <p class="text-sm font-semibold mb-2">
+                            Core Idea: ${item.core}
+                        </p>
+                        <p class="text-xs italic opacity-80">
+                            🇧🇷 Equivalente: ${item.pt}
+                        </p>
+                    </div>
+                `;
+            });
+            grid.innerHTML = html;
+        }
+
+        // Renders a single scenario detail card
+        function renderScenarioDetail(scenario, index, color) {
+            const baseColor = `${color}-500`;
+            const highlightBg = `bg-${color}-50`;
+            const highlightText = `text-${color}-800`;
+            const highlightBorder = `border-${color}-500`;
+            const accentText = `text-${color}-500`;
+
+            const expressionsHtml = scenario.expressions.map((exp, expIndex) => `
+                <li class="text-xs px-2 py-0.5 rounded-full bg-${color}-500 bg-opacity-10 font-medium ${accentText}">
+                    "${exp}"
+                </li>
+            `).join('');
+
+            return `
+                <div class="p-6 rounded-xl shadow-xl border-l-4 ${highlightBg} ${highlightText} ${highlightBorder} transition duration-300 hover:shadow-2xl">
+                    <h5 class="text-lg font-bold mb-3 flex items-center">
+                        <span class="h-2 w-2 rounded-full mr-2 bg-${baseColor}"></span>
+                        Cenário ${index + 1}: Storytelling Profissional
+                    </h5>
+                    
+                    <!-- English/Experience Statement -->
+                    <div class="bg-white p-3 rounded-lg border border-gray-200 mb-4">
+                        <p class="font-semibold text-gray-700">
+                            <span class="font-extrabold text-sm text-gray-900">EN: </span>
+                            ${scenario.english}
+                        </p>
+                    </div>
+
+                    <!-- Portuguese Translation -->
+                    <p class="mb-4 text-gray-600 italic">
+                        <span class="font-extrabold text-sm ${accentText}">PT: </span>
+                        ${scenario.portuguese}
+                    </p>
+
+                    <!-- Brazilian Office Expressions -->
+                    <div class="mt-2 p-3 bg-white rounded-lg border border-dashed border-gray-300">
+                        <p class="text-sm font-semibold mb-1 text-gray-700">
+                            🇧🇷 Equivalentes no Office Talk:
+                        </p>
+                        <ul class="flex flex-wrap gap-2">
+                            ${expressionsHtml}
+                        </ul>
+                    </div>
+                     <p class="mt-3 text-sm font-medium text-gray-500 border-t pt-2 border-gray-100">
+                        <span class="font-bold">Dica de Entrevista:</span> ${scenario.tip}
+                    </p>
+                </div>
+            `;
+        }
+        
+        // Renders all scenario sections (the main walkthroughs)
+        function renderScenarioSections() {
+            const container = document.getElementById('scenario-walkthroughs');
+            let totalHtml = '';
+
+            for (const key in SCENARIO_DATA) {
+                const data = SCENARIO_DATA[key];
+                const highlightText = `text-${data.color}-700`;
+                let scenariosHtml = '';
+
+                data.scenarios.forEach((scenario, index) => {
+                    scenariosHtml += renderScenarioDetail(scenario, index, data.color);
+                });
+
+                totalHtml += `
+                    <div class="mb-10 p-6 bg-white rounded-xl shadow-lg">
+                        <h3 class="text-3xl font-extrabold mb-6 ${highlightText} border-b pb-2 border-gray-200">
+                            ${data.title}
+                        </h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            ${scenariosHtml}
+                        </div>
+                    </div>
+                `;
+            }
+            container.innerHTML = totalHtml;
+        }
+
+        // --- 3. INITIALIZATION ---
+        window.onload = function() {
+            renderVerbCards();
+            renderScenarioSections();
+        };
+
+    </script>
+</body>
+</html>
